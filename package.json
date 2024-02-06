@@ -1,0 +1,15 @@
+{
+  "name": "devx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -i src/style.css -o public/output.css"
+  },
+  "keywords": [],
+  "author": "Arthur Lewyins <lightslayer135@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

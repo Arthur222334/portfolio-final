@@ -1,0 +1,90 @@
+.sidebar {
+    padding-top: 15vw;
+    border-radius: 30px;
+    padding: 0%;
+    margin-top: 80px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    position: fixed;
+    border-radius: 30px;
+    border: 3px solid #f9f9fa;
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar li {
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.sidebar img {
+    position: relative;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+
+    cursor: pointer;
+    height: 3vw;
+    font-size: 40px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.sidebar img:hover {
+    transition: all 0.5s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+    transform: scale(0.8);
+}
+
+.sidebar img:hover::after {
+    transition: all 0.5s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 10px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+
+.sidebar img::before {
+    position: relative;
+    border-radius: 20px;
+    opacity: 30px;
+    transition: 0.7s;
+    transition: 0.1ms ease-in;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: 0.1ms ease-in;
+    -moz-transition: 0.1ms ease-in;
+    -ms-transition: 0.1ms ease-in;
+    -o-transition: 0.1ms ease-in;
+}
+
+.apple {
+    text-transform: uppercase;
+}
+
+.apple span {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+}
