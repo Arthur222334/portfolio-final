@@ -80,11 +80,49 @@
 }
 
 .apple {
-    text-transform: uppercase;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 .apple span {
+    padding-left: 25%;
+    text-transform: uppercase;
+
+}
+
+.apple span {
+
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent !important;
+}
+
+.footer {
+    display: flex;
+}
+
+.banana {
+    list-style: none;
+    display: flex !important;
+    color: white;
+    position: absolute;
+    transition: 1s box-shadow;
+    top: 100%;
+    left: 40%;
+}
+
+.banana img {
+    width: 9%;
+    margin-left: 9%;
+    border: 2px solid white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.banana h1 {
+    margin-top: 1.5%;
+    margin-left: 1.5%;
 }
