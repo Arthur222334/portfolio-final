@@ -150,7 +150,7 @@ button {
     -o-border-radius: 2.225rem;
 }
 
-button:hover {
+button:hover{
     background-color: rgb(82, 82, 244);
     transform: scale(1.2);
     transition: transform ease-in-out 1000ms;
